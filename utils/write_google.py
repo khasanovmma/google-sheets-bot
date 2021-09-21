@@ -21,7 +21,7 @@ def write_google(lname, fname, mname, phone):
         "values": lst
     }
     spreadsheetId = "1xcqARLS0TwJPDz-jlyZ7fk3lq--9L6WaQpnMybWp6oQ"
-    range_sheets = "list!A:D"
+    range_sheets = "Info!A:D"
     service.spreadsheets().values().append(
         spreadsheetId=spreadsheetId,
         range=range_sheets,
